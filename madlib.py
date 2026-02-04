@@ -1,0 +1,23 @@
+#creating a madlib
+#name of group: derek, jose, shad, heber, spencer
+print("Welcome to Madlib, Let's get started! ")
+nameoffriend = input("Name of your friend: ")
+safeplace = input("Name of your safe place: ")
+adj1 = input("An adjective: ")
+pastverb = input("A past tense verb: ")
+ploun1 = input("Give me a plural noun now: ")
+exclaim = input("AN EXCLAMATION! ")
+bodypart1 = input("A body part: ")
+bodypart2 = input("Another body part!: ")
+verb1 = input("Now a verb: ")
+verb2 = input("verb ending with ing): ")
+ploun2 = input("Plural noun: ")
+noun = input("singular noun: ")
+adj2 = input("Another adjective: ")
+adj3 = input("And another adjective: ")
+place = input("Name of any place: ")
+number = input("Lastly, a number: ")
+print("OK, here's what we got! ")
+
+print(f"\n\nYesterday, I woke up feeling extremely {adj1}, so I grabbed my {noun} and {pastverb} straight into the {place.title()}. Everyone there was wearing {ploun1} on their {bodypart1}, which made me {verb1}. Out of nowhere, my {adj2} friend {nameoffriend.capitalize()} yelled, “{exclaim.upper()}!” and threw {number} {ploun2} at my {bodypart2}. I started {verb2} and went to {safeplace}. That was the most {adj3} Tuesday of my life.")
+print("Wow ummm... what a story!")
